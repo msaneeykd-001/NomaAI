@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local prediction history
+data/prediction_history.json
+history/prediction_history.json
+historydir/
+
+# Training datasets
+plantvillage/
+training_data/
+test_data/
+Tomato/
+
+# Old / backup models
+models/plant_disease_model.keras
+models/plant_disease_model_v2.keras
+models/plant_disease_model_v2_backup.keras
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup app files
+app/app_backup.py
+app/app_backup_working.py
+
+# Local prediction history
+history/
+data/
+
+# Training/source files not needed for deployment
+create_test_split.py
+create_training_split.py
+evaluate_model.py
+evaluate_v3.py
+data/models/
+
+# Jupyter notebook
+*.ipynb
